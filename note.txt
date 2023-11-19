@@ -1,0 +1,19 @@
+Drag and drop mechanism
+------------------------
+darg and drop mechanism can be achieved using 5 properties:
+
+1)draggable :
+===========
+ when added as an attribute to an element , makes the target element to become dragable.
+2)ondragstart:
+===============
+Its called immediately the element drag. Usually the content to be dragged above set at this point.
+3)droppable:
+===========
+when added as an attribute to element , makes the target element become dropable.
+4)ondragover:
+=============
+Its added has an eventlistener to element where the dragged content is dropped. In other words its used to specify where the content to be drpped.
+5)ondrop:
+=========
+its called immediately the dragged content is released on the element that contains ondragover eventlistener.
